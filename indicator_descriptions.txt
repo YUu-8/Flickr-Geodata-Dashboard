@@ -1,0 +1,12 @@
+## Indicator 1 (Group Query)
+This indicator displays the number of annotations per georeferencing accuracy tier, highlighting the overall quality distribution of the dataset.
+
+## Indicator 2 (Data Transformation)
+This indicator transforms the continuous 'rms_error' (a metric for georeferencing accuracy) into 4 categorical quality bins. RMS error measures the root-mean-square difference between predicted and actual geographic coordinates—lower values indicate more precise alignment. The bins simplify understanding of overall data quality: most annotations fall into 'Excellent' or 'Good' tiers, confirming reliable georeferencing results.
+
+## Indicator 3 (Temporal Analysis)
+This indicator shows monthly georeferencing activity trends in 2014, with optional forecasts for the next 2 months. It identifies peak contribution periods (e.g., months with higher annotation volumes) and predicts future engagement. Consistent growth or decline can inform resource allocation for the Georeferencer project, such as targeting outreach during low-activity months to boost participation.
+
+## Indicator 4 (Spatial Clustering)
+This indicator uses K-Means clustering to identify 5 geographic hotspots of georeferenced annotations. Each point represents the center coordinate of a georeferenced map, and colors denote cluster membership. Centroids (labeled Hotspot 1–5) mark the most densely annotated regions, which typically correspond to major cities, historical regions, or areas of high cultural significance in the British Library's map collection.
+

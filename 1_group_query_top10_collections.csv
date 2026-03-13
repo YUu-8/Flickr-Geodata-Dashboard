@@ -1,0 +1,5 @@
+rms_error_quality,annotation_count
+Excellent (≤0.5),2622
+Good (0.5–1.0),145
+Fair (1.0–2.0),121
+Poor (>2.0),143
